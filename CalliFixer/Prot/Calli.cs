@@ -26,7 +26,7 @@ namespace CalliFixer.Protections
 
                         if (instructions[i].OpCode == OpCodes.Ldftn)
                         {
-                            instructions[i].OpCode = OpCodes.Call;
+                            instructions[i].OpCode = OpCodes.Callvirt;
                            
 
                             decrypted++;
