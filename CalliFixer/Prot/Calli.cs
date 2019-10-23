@@ -1,4 +1,4 @@
-﻿using CalliFixer;
+using CalliFixer;
 using dnlib.DotNet;
 using dnlib.DotNet.Emit;
 using System;
@@ -24,19 +24,13 @@ namespace CalliFixer.Protections
                     for (int i = 2; i < instructions.Count; i++)
                     {
 
-                        if (instructions[i].OpCode == OpCodes.Ldftn)
+                        if (instructions[i].OpCode.Code == Code.Ldftn && instructions[i + 1].OpCode.Code == Code.Calli)
                         {
                             instructions[i].OpCode = OpCodes.Call;
-                           
-
+                            instructions[i + 1].OpCode = OpCodes.Nop;
                             decrypted++;
-                        }
-                        if (instructions[i].OpCode == OpCodes.Calli)
-                        {
-                            instructions[i].OpCode = OpCodes.Nop;
-                            decrypted++; 
-                        }
 
+                        }
 
                     }
                 
