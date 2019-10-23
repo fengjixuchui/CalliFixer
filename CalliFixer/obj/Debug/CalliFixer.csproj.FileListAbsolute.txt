@@ -1,0 +1,9 @@
+C:\Users\rizie\source\repos\CalliFixer\CalliFixer\obj\Debug\CalliFixer.csprojAssemblyReference.cache
+C:\Users\rizie\source\repos\CalliFixer\CalliFixer\bin\Debug\CalliFixer.exe.config
+C:\Users\rizie\source\repos\CalliFixer\CalliFixer\bin\Debug\CalliFixer.exe
+C:\Users\rizie\source\repos\CalliFixer\CalliFixer\bin\Debug\CalliFixer.pdb
+C:\Users\rizie\source\repos\CalliFixer\CalliFixer\bin\Debug\Colorful.Console.dll
+C:\Users\rizie\source\repos\CalliFixer\CalliFixer\bin\Debug\dnlib.dll
+C:\Users\rizie\source\repos\CalliFixer\CalliFixer\obj\Debug\CalliFixer.csproj.CopyComplete
+C:\Users\rizie\source\repos\CalliFixer\CalliFixer\obj\Debug\CalliFixer.exe
+C:\Users\rizie\source\repos\CalliFixer\CalliFixer\obj\Debug\CalliFixer.pdb
